@@ -1,0 +1,43 @@
+body{
+    background-color: red;
+    color: black;
+    margin: 0;
+    padding: 15px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+nav,article{
+    width: 100%;
+    padding: 15px;
+}
+
+header, footer{
+    background-color: yellow;
+   padding: 15px;
+}
+nav {
+    background-color: aquamarine;
+    flex: 10%;
+    padding: 15px;
+}
+
+nav a{
+    display: block;
+}
+
+a:hover {
+   background-color: coral; 
+}
+article{
+    background-color: #999;
+    padding: 15px;
+}
+
+@media screen and (max-width:600px){
+    section flex{
+        flex-direction: column;
+    }
+}
